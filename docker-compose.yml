@@ -1,0 +1,6 @@
+version: "2"
+services:
+  radius:
+    build: .
+    ports:
+      - "1812:1812/udp"
